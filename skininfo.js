@@ -2,7 +2,7 @@ define([], function () {
     'use strict';
 
     return {
-        id: 'zero',
+        id: 'zeroskin',
         name: 'Zero Skin'
     };
 });
