@@ -33,6 +33,7 @@ define(['cardBuilder', 'emby-itemscontainer'], function (cardBuilder) {
                 },
                 scalable: false,
                 overlayText: true
+                showTitle: true
             });
         });
     }
