@@ -19,7 +19,7 @@ define(['playbackManager', 'pluginManager', 'browser', 'connectionManager', 'eve
 
         self.name = 'Zero Skin';
         self.type = 'skin';
-        self.id = 'zero';
+        self.id = 'zeroskin';
 
         var dependencyPrefix = self.id;
         var settingsObjectName = dependencyPrefix + '/skinsettings';
