@@ -1,7 +1,7 @@
 define(['connectionManager', 'loading', './../components/tabbedpage', 'backdrop', 'focusManager', 'playbackManager', './../skininfo', 'events'], function (connectionManager, loading, tabbedPage, backdrop, focusManager, playbackManager, skinInfo, events) {
     'use strict';
 
-    function loadViewHtml(page, parentId, html, viewName, self) {
+    function loadViewHtml(page, parentId, html, viewName, autoFocus, self) {
 
         var homeScrollContent = page.querySelector('.contentScrollSlider');
 
