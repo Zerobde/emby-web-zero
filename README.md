@@ -1,4 +1,4 @@
-# emby-web-defaultskin
+# emby-web-zero
 
 This default skin for Emby Theater. To create your own skin, follow these steps:
 
