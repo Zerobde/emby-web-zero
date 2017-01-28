@@ -19,7 +19,7 @@ This file is used to display information about your add-on in places such as the
 
 # Installation
 
-Install into the app by installing a plugin from a url. The url is: https://github.com/Zerobde/emby-web-zero/gh-pages/package.json
+Install into the app by installing a plugin from a url. The url is: https://github.com/Zerobde/emby-web-zero/package.json
 
 # Local Testing
 
