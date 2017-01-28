@@ -43,7 +43,7 @@ define(['./spotlight', 'imageLoader', 'focusManager', 'cardBuilder', './../skini
             cardbuilder.buildCards(result, {
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
-                shape: 'portrait',
+                shape: 'backdrop',
                 rows: 2,
                 scalable: false
             });
