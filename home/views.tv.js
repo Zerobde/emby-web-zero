@@ -87,7 +87,7 @@ define(['./spotlight', 'focusManager', 'cardBuilder', './../skininfo', 'emby-ite
                 shape: 'backdrop',
                 rows: 3,
                 preferThumb: true,
-                showGroupCount: true,
+                showGroupCount: false,
                 scalable: false
             });
         });
