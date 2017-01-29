@@ -74,7 +74,7 @@
 .itemPageButtonsContainer {
     display: flex;
     align-items: center;
-    margin: 1.5em 0;
+    margin: .5em 0;
 }
 
 .mainSection .itemPageButtons {
@@ -203,6 +203,9 @@
     background-position: center center;
     background-size: contain;
 }
+p .genres { margin-top: 0px; margin-bottom: 0px; } /* Genre list */
+
+p .overview { margin-top: 15px; margin-bottom: 15px; } /* Episode Summary */
 
 @media all and (max-width: 1400px) {
 
