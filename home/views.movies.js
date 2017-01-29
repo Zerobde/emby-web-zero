@@ -47,6 +47,7 @@ define(['./spotlight', 'imageLoader', 'focusManager', 'cardBuilder', './../skini
                 itemsContainer: section.querySelector('.itemsContainer'),
                 shape: 'backdrop',
                 rows: 3,
+                preferThumb: true,
                 scalable: false
             });
         });
