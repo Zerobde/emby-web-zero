@@ -236,7 +236,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         ParentId: pageParams.parentid,
                         IncludeItemTypes: "Movie",
                         Recursive: true,
-                        SortBy: "PremiereDate",
+                        SortBy: "ReleaseDate",
                         Fields: "SortName"
                     });
                 },
