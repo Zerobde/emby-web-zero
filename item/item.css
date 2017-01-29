@@ -204,7 +204,7 @@
     background-position: center center;
     background-size: contain;
 }
-.peopleSection h5 { margin-top: 5px; margin-bottom: 0px; !important; } /* Cast & Crew Title */
+.verticalSection .peopleSection h5 { margin-top: 5px; margin-bottom: 0px; !important; } /* Cast & Crew Title */
 
 @media all and (max-width: 1400px) {
 
