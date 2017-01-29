@@ -12,7 +12,8 @@
 
 .mainSection {
     display: flex;
-    /* margin-top: 2em; */
+    margin-top: 0px;
+    margin-top: 0px;
 }
 
 .smallBottomMargin {
@@ -203,9 +204,7 @@
     background-position: center center;
     background-size: contain;
 }
-p .genres hide { margin-top: 0px; margin-bottom: 0px; } /* Genre list */
-
-p .overview { margin-top: 15px; margin-bottom: 15px; } /* Episode Summary */
+.verticalSection .peopleSection h5 { margin-top: 5px; margin-bottom: 0px; } /* Cast & Crew Title */
 
 @media all and (max-width: 1400px) {
 
