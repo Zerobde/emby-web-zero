@@ -480,27 +480,4 @@ button.mini {
     font-size: 2.1em !important;
 }
 
-.mediaInfo {
-    /* margin: 1em 0; */
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-} /* Date & Time */
 
-.itemTitle { margin: .25em; } /* Video Title */
-.genres { margin-top: 0px; margin-bottom: 0px; } /* Genre list */
-.overview { margin-top: 15px; margin-bottom: 15px; } /* Episode Summary */
-
-.mediaInfoIcons {
-    /* margin: 1.25em 0; */
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-} /* Media flags */
-
-.peopleSection h5 { margin-top: 5px; margin-bottom: 5px; } /* Cast & Crew Title */
-.cardText-secondary { display: none; } /* Actor underneath Actor/Actress name */
-.layout-tv .personCard { width: 12.285714285714285714285714285714%; } /* Controls the size of the Actor’s image */
