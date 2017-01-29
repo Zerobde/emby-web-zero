@@ -159,6 +159,7 @@ define(['./spotlight', 'imageLoader', 'focusManager', 'cardBuilder', './../skini
             var items = result.Items;
             var imgOptions = {
                 maxWidth: 600
+                preferThumb: true,
             };
 
             if (items.length > 0) {
