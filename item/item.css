@@ -2,6 +2,8 @@
     width: 12.285714285714285714285714285714%;
 }
 
+.cardText-secondary { display: none; } /* Actor underneath Actor/Actress name */
+
 .itemFloatClear {
     clear: both;
 }
