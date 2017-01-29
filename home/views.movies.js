@@ -30,7 +30,7 @@ define(['./spotlight', 'imageLoader', 'focusManager', 'cardBuilder', './../skini
 
         var options = {
 
-            SortBy: "ReleaseDate",
+            SortBy: "PremiereDate",
             SortOrder: "Descending",
             IncludeItemTypes: "Movie",
             Limit: 12,
