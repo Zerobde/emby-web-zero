@@ -177,6 +177,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                             square: 3,
                             backdrop: 3
                         },
+                        preferThumb: true, // Shows Titles on Thumbnails
                         scalable: false
                     }
                 });
@@ -218,6 +219,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         square: 3,
                         backdrop: 3
                     },
+                    preferThumb: true,
                     scalable: false
                 }
             });
@@ -236,8 +238,8 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         ParentId: pageParams.parentid,
                         IncludeItemTypes: "Movie",
                         Recursive: true,
-                        SortBy: "PremiereDate",
-                        SortOrder: "Descending",
+                        SortBy: "SortName",
+                        // SortOrder: "Descending",
                         Fields: "SortName"
                     });
                 },
@@ -301,6 +303,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         square: 3,
                         backdrop: 3
                     },
+                    preferThumb: true,
                     scalable: false
                 }
             });
@@ -337,6 +340,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         square: 3,
                         backdrop: 3
                     },
+                    preferThumb: true,
                     scalable: false
                 }
             });
@@ -366,6 +370,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         square: 3,
                         backdrop: 3
                     },
+                    preferThumb: true,
                     scalable: false
                 },
                 listCountElement: page.querySelector('.listCount'),
@@ -407,6 +412,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         square: 3,
                         backdrop: 3
                     },
+                    preferThumb: true,
                     scalable: false
                 },
                 listCountElement: page.querySelector('.listCount'),
