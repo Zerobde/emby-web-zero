@@ -237,7 +237,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         IncludeItemTypes: "Movie",
                         Recursive: true,
                         SortBy: "PremiereDate",
-                        Fields: "SortOrder"
+                        Fields: "SortName"
                     });
                 },
                 listCountElement: page.querySelector('.listCount'),
@@ -258,8 +258,8 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         square: 3,
                         backdrop: 3
                     },
-                    preferThumb: True,
-                    scalable: false
+                   preferThumb: true, 
+                   scalable: false
                 }
             });
 
