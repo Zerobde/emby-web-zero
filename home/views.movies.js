@@ -7,7 +7,7 @@ define(['./spotlight', 'imageLoader', 'focusManager', 'cardBuilder', './../skini
 
             Limit: 6,
             ParentId: parentId,
-            ImageTypeLimit: 1,
+            ImageTypeLimit: 2,
             EnableImageTypes: "Primary,Backdrop,Thumb"
         };
 
