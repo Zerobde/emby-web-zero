@@ -459,7 +459,7 @@ h1 {
 }
 
     .verticalSection > h2 {
-        margin-bottom: .25em;
+      /*  margin-bottom: .25em; */
     }
 
 .mainSection .raised {
@@ -480,6 +480,3 @@ button.mini {
     font-size: 2.1em !important;
 }
 
-p .genres { margin-top: 0px; margin-bottom: 0px; } /* Genre list */
-
-p .overview { margin-top: 15px; margin-bottom: 15px; } /* Episode Summary */
