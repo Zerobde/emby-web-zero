@@ -258,6 +258,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         square: 3,
                         backdrop: 3
                     },
+                    preferThumb: True,
                     scalable: false
                 }
             });
