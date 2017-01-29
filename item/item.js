@@ -147,7 +147,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
             var apiClient = connectionManager.getApiClient(item.ServerId);
 
             var imageTags = item.ImageTags || {};
-            var imageWidth = 800;
+            var imageWidth = 642;
             var url;
 
             if (imageTags.Primary) {
