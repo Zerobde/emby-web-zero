@@ -203,7 +203,7 @@
     background-position: center center;
     background-size: contain;
 }
-p .genres { margin-top: 0px; margin-bottom: 0px; } /* Genre list */
+p .genres hide { margin-top: 0px; margin-bottom: 0px; } /* Genre list */
 
 p .overview { margin-top: 15px; margin-bottom: 15px; } /* Episode Summary */
 
