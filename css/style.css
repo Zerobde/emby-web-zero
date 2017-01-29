@@ -459,7 +459,7 @@ h1 {
 }
 
     .verticalSection > h2 {
-      /*  margin-bottom: .25em; */
+        margin-bottom: .25em;
     }
 
 .mainSection .raised {
