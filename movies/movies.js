@@ -231,10 +231,10 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
 
             self.listController = new horizontalList({
                 itemsContainer: page.querySelector('.contentScrollSlider'),
-                getItemsMethod: function (startIndex) {
+                /* getItemsMethod: function (startIndex, limit) {
                     return Emby.Models.items({
                         StartIndex: startIndex,
-                        //Limit: limit,
+                        Limit: limit,
                         ParentId: pageParams.parentid,
                         IncludeItemTypes: "Movie",
                         Recursive: true,
@@ -242,7 +242,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         // SortOrder: "Descending",
                         Fields: "SortName"
                     });
-                },
+                },*/
                 listCountElement: page.querySelector('.listCount'),
                 listNumbersElement: page.querySelector('.listNumbers'),
                 autoFocus: autoFocus,
