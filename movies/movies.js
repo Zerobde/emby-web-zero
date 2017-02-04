@@ -231,10 +231,10 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
 
             self.listController = new horizontalList({
                 itemsContainer: page.querySelector('.contentScrollSlider'),
-                getItemsMethod: function (startIndex, limit) {
+                getItemsMethod: function (startIndex) {
                     return Emby.Models.items({
                         StartIndex: startIndex,
-                        // Limit: limit,
+                        //Limit: limit,
                         ParentId: pageParams.parentid,
                         IncludeItemTypes: "Movie",
                         Recursive: true,
