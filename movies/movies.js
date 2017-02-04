@@ -234,7 +234,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                 getItemsMethod: function (startIndex, limit) {
                     return Emby.Models.items({
                         StartIndex: startIndex,
-                        Limit: limit,
+                        // Limit: limit,
                         ParentId: pageParams.parentid,
                         IncludeItemTypes: "Movie",
                         Recursive: true,
