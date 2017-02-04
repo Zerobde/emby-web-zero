@@ -2,9 +2,12 @@
     width: 12.285714285714285714285714285714%;
 }
 
-html.layout-tv .backdropCard-scalable {
-    font-size: 2vh;
+.backdropCard-scalable {
     width: 25%;
+}
+
+html.layout-tv {
+    font-size: 2vh;
 }
 
 .cardText-secondary { display: none; } /* Actor underneath Actor/Actress name */
