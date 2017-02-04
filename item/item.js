@@ -375,7 +375,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                 mediaInfoElem.classList.add('hide');
             }
 
-            /*var genres = item.Genres || [];
+            var genres = item.Genres || [];
             var genresHtml = genres.map(function (i) {
 
                 return i;
@@ -389,50 +389,8 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
             } else {
                 genresElem.classList.remove('hide');
                 genresElem.innerHTML = genresHtml;
-            }*/
-            
-            /* Genre Links From Server App */
-            
-        function renderGenres(elem, item, limit, isStatic) {
-
-            var context = inferContext(item);
-
-            var html = '';
-
-            var genres = item.Genres || [];
-
-            for (var i = 0, length = genres.length; i < length; i++) {
-
-                if (limit && i >= limit) {
-                    break;
-                }
-
-                if (i > 0) {
-                    html += '<span class="bulletSeparator">&bull;</span>';
-                }
-
-                var param = item.Type == "Audio" || item.Type == "MusicArtist" || item.Type == "MusicAlbum" ? "musicgenre" : "genre";
-
-                if (item.MediaType == "Game") {
-                    param = "gamegenre";
-                }
-
-                if (isStatic) {
-                    html += genres[i];
-                } else {
-
-                    var type = 'Movie';
-
-                    var url = "secondaryitems.html?type=" + type + "&" + param + "=" + ApiClient.encodeName(genres[i]);
-
-                    html += '<a class="textlink" href="' + url + '">' + genres[i] + '</a>';
-                }
             }
-
-            elem.innerHTML = html;
-        }
-            /* End Genre Links From Server App */
-
+            
             if (item.IsFolder) {
 
                 view.querySelector('.itemPageFixedLeft .btnPlayText').innerHTML = globalize.translate("PlayAll");
