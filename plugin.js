@@ -271,7 +271,7 @@ define(['playbackManager', 'pluginManager', 'browser', 'connectionManager', 'eve
         };
 
         self.showGenre = function (options) {
-            Emby.Page.show(pluginManager.mapRoute(self.id, 'list/list.html') + '?parentid=' + options.ParentId + '&tenreId=' + options.Id);
+            Emby.Page.show(pluginManager.mapRoute(self.id, 'list/list.html') + '?parentid=' + options.ParentId + '&genreId=' + options.Id);
         };
 
         self.setTitle = function (title) {
