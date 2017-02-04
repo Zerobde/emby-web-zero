@@ -2,6 +2,11 @@
     width: 12.285714285714285714285714285714%;
 }
 
+@media (min-width: 1600px)
+.layout-tv .backdropCard-scalable {
+    width: 25%;
+}
+
 html.layout-tv {
     font-size: 2vh;
 }
