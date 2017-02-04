@@ -147,7 +147,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                     getItemsMethod: function (startIndex, limit) {
                         return Emby.Models.items({
                             StartIndex: startIndex,
-                            Limit: limit,
+                            /*Limit: limit,*/
                             ParentId: pageParams.parentid,
                             IncludeItemTypes: "Movie",
                             Recursive: true,
@@ -169,7 +169,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                     },
                     cardOptions: {
                         indexBy: 'Genres',
-                        /*genres: genresResult.Items,*/
+                        genres: genresResult.Items,
                         indexLimit: 3,
                         parentId: pageParams.parentid,
                         rows: {
