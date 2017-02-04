@@ -231,7 +231,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
 
             self.listController = new horizontalList({
                 itemsContainer: page.querySelector('.contentScrollSlider'),
-                /* getItemsMethod: function (startIndex, limit) {
+                getItemsMethod: function (startIndex, limit) {
                     return Emby.Models.items({
                         StartIndex: startIndex,
                         Limit: limit,
@@ -242,8 +242,8 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         // SortOrder: "Descending",
                         Fields: "SortName"
                     });
-                },*/
-                listCountElement: page.querySelector('.listCount'),
+                },
+                /*listCountElement: page.querySelector('.listCount'),
                 listNumbersElement: page.querySelector('.listNumbers'),
                 autoFocus: autoFocus,
                 selectedItemInfoElement: page.querySelector('.selectedItemInfo'),
@@ -254,7 +254,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         resolve();
                         resolve = null;
                     }
-                },
+                },*/
                 cardOptions: {
                     rows: {
                         portrait: 2,
