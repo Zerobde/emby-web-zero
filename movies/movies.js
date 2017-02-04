@@ -266,7 +266,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                 }
             });
 
-            *self.listController.render();*
+            self.listController.render();
         }
 
         function renderUnwatchedMovies(page, pageParams, autoFocus, scroller, resolve) {
