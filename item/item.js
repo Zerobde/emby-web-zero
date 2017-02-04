@@ -1020,7 +1020,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                     parentContainer: section,
                     itemsContainer: section.querySelector('.itemsContainer'),
                     coverImage: true,
-                    width: Math.round((section.offsetWidth / 4))
+                    width: Math.round((section.offsetWidth / 5))
                 });
             });
         }
