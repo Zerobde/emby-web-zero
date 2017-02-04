@@ -380,7 +380,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
 
                 return i;
 
-            }).join('<span class="bulletSeparator">&bull;</span>');
+            }).join('<span class="bulletSeparator">-</span>');
 
             var genresElem = view.querySelector('.genres');
 
