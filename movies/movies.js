@@ -169,7 +169,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                     },
                     cardOptions: {
                         indexBy: 'Genres',
-                        genres: genresResult.Items,
+                        /*genres: genresResult.Items,*/
                         indexLimit: 3,
                         parentId: pageParams.parentid,
                         rows: {
@@ -266,7 +266,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                 }
             });
 
-            /*self.listController.render();*/
+            *self.listController.render();*
         }
 
         function renderUnwatchedMovies(page, pageParams, autoFocus, scroller, resolve) {
