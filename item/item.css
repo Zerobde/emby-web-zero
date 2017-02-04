@@ -211,13 +211,6 @@ html.layout-tv {
     background-size: contain;
 }
 
-@media all and (max-width: 1600px) {
-
-    .layout-tv .backdropCard-scalable {
-        width: 5%;
-    }
-}
-
 @media all and (max-width: 1400px) {
 
     .detailLogo {
