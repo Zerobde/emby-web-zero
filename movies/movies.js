@@ -243,7 +243,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         Fields: "SortName"
                     });
                 },
-                /*listCountElement: page.querySelector('.listCount'),
+                listCountElement: page.querySelector('.listCount'),
                 listNumbersElement: page.querySelector('.listNumbers'),
                 autoFocus: autoFocus,
                 selectedItemInfoElement: page.querySelector('.selectedItemInfo'),
@@ -254,7 +254,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         resolve();
                         resolve = null;
                     }
-                },*/
+                },
                 cardOptions: {
                     rows: {
                         portrait: 2,
@@ -266,7 +266,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                 }
             });
 
-            self.listController.render();
+            /*self.listController.render();*/
         }
 
         function renderUnwatchedMovies(page, pageParams, autoFocus, scroller, resolve) {
