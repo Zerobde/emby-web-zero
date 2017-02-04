@@ -170,7 +170,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                     cardOptions: {
                         indexBy: 'Genres',
                         genres: genresResult.Items,
-                        /*indexLimit: 3,*/
+                        indexLimit: 6,
                         parentId: pageParams.parentid,
                         rows: {
                             portrait: 2,
