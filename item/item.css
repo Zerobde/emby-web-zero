@@ -9,6 +9,10 @@
     width: 20% !important;    
 }
 
+.itemsContainer .cardScalable {
+    display: none;
+}
+
 html.layout-tv {
     font-size: 2vh;
 }
