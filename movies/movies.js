@@ -171,7 +171,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                         indexBy: 'Genres',
                         genres: genresResult.Items,
                         indexLimit: 6,
-                        parentId: pageParams.parentid,
+                        /*parentId: pageParams.parentid,*/
                         rows: {
                             portrait: 2,
                             square: 3,
