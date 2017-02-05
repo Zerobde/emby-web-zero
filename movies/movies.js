@@ -159,14 +159,14 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                     listNumbersElement: page.querySelector('.listNumbers'),
                     autoFocus: autoFocus,
                     selectedItemInfoElement: page.querySelector('.selectedItemInfo'),
-                    selectedIndexElement: page.querySelector('.selectedIndex'),
+                    /*selectedIndexElement: page.querySelector('.selectedIndex'),*/
                     scroller: scroller,
-                    /*onRender: function () {
+                    onRender: function () {
                         if (resolve) {
                             resolve();
                             resolve = null;
                         }
-                    },*/
+                    },
                     cardOptions: {
                         indexBy: 'Genres',
                         genres: genresResult.Items,
