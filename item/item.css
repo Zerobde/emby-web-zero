@@ -6,11 +6,6 @@
     width: 20% !important;    
 }
 
-.cardScalable {
-    position: relative;
-    display: none !important;
-}
-
 html.layout-tv {
     font-size: 2vh;
 }
