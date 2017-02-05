@@ -1092,6 +1092,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                     shape: 'autoVertical',
                     sectionTitleTagName: 'h2',
                     scalable: true,
+                    preferThumb: true, // Shows Titles on Thumbnails
                     coverImage: item.Type === 'MusicArtist' || item.Type === 'MusicAlbum'
                 }));
             });
