@@ -9,7 +9,7 @@
     width: 20% !important;    
 }
 
-.itemsContainer .cardScalable {
+.cardBox .cardScalable {
     display: none;
 }
 
