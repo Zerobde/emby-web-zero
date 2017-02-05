@@ -1,4 +1,4 @@
-define(['loading', 'alphaPicker', /*'./../components/horizontallist',*/ './../components/tabbedpage', 'backdrop', 'emby-itemscontainer'], function (loading, alphaPicker, horizontalList, tabbedPage, backdrop) {
+define(['loading', 'alphaPicker', './../components/horizontallist', './../components/tabbedpage', 'backdrop', 'emby-itemscontainer'], function (loading, alphaPicker, horizontalList, tabbedPage, backdrop) {
     'use strict';
 
     return function (view, params) {
