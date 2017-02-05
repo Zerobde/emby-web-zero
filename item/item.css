@@ -1,6 +1,9 @@
 .layout-tv .personCard {
     width: 12.285714285714285714285714285714%;
 }
+.peopleItems .personSection { 
+    padding: 0px;
+}
 
 .layout-tv .backdropCard-scalable {
     width: 20% !important;    
