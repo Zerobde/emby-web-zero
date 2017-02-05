@@ -961,7 +961,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                     coverImage: true,
                     serverId: item.ServerId,
                     width: Math.round((section.offsetWidth / 7)),
-                    shape: 'portrait'
+                    shape: 'backdrop'
                 });
             });
         }
