@@ -944,7 +944,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
 
             var people = item.People || [];
 
-            people.length = Math.min(people.length, 32);
+            people.length = Math.min(people.length, 12);
 
             if (!people.length) {
                 section.classList.add('hide');
@@ -961,7 +961,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                     coverImage: true,
                     serverId: item.ServerId,
                     width: Math.round((section.offsetWidth / 7)),
-                    shape: 'backdrop'
+                    shape: 'portrait'
                 });
             });
         }
