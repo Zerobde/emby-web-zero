@@ -1065,7 +1065,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
         function renderSimilar(view, item, apiClient) {
 
             var options = {
-                Limit: 12,
+                Limit: 15,
                 UserId: apiClient.getCurrentUserId(),
                 ImageTypeLimit: 1,
                 Fields: "PrimaryImageAspectRatio"
