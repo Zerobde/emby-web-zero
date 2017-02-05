@@ -161,17 +161,17 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                     selectedItemInfoElement: page.querySelector('.selectedItemInfo'),
                     selectedIndexElement: page.querySelector('.selectedIndex'),
                     scroller: scroller,
-                    onRender: function () {
+                    /*onRender: function () {
                         if (resolve) {
                             resolve();
                             resolve = null;
                         }
-                    },
+                    },*/
                     cardOptions: {
                         indexBy: 'Genres',
                         genres: genresResult.Items,
                         indexLimit: 6,
-                        /*parentId: pageParams.parentid,*/
+                        parentId: pageParams.parentid,
                         rows: {
                             portrait: 2,
                             square: 3,
