@@ -455,7 +455,7 @@ h1 {
 
 
 .verticalSection {
-    /* margin-bottom: 3em; */
+    margin-bottom: 0em !important; 
 }
 
     .verticalSection > h2 {
