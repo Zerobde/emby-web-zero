@@ -1,15 +1,15 @@
 .layout-tv .personCard {
     width: 12.285714285714285714285714285714%;
 }
-.peopleItems .personSection { 
+.peopleItems .personSection {  /* Takes away the left/right padding of the Actor's movies section to fill in the area */
     padding: 0px;
 }
 
-.layout-tv .backdropCard-scalable {
+.layout-tv .backdropCard-scalable { /* Makes the Scenes and More Like This Movies small enough to fit 5 in a row */
     width: 20% !important;    
 }
 
-.peopleSection .cardScalable {
+.peopleSection .cardScalable { /* Hides actor photo, leaving just the name as a link */
     display: none;
 }
 
@@ -17,7 +17,7 @@ html.layout-tv {
     font-size: 2vh;
 }
 
-.cardText-secondary { display: none; } /* Actor underneath Actor/Actress name */
+.cardText-secondary { display: none; } /* Hides the words underneath Actor/Actress name */
 
 .itemFloatClear {
     clear: both;
