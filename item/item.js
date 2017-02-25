@@ -684,7 +684,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                         PersonTypes: "",
                         ArtistIds: ""
                     }, extendVerticalCardOptions({
-                        shape: "autoVertical",
+                        shape: 'backdrop',
                         sectionTitleTagName: 'h2'
                     }));
                     break;
@@ -961,7 +961,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                     coverImage: true,
                     serverId: item.ServerId,
                     width: Math.round((section.offsetWidth / 2)),
-                    shape: 'backdrop'
+                    shape: 'portrait'
                 });
             });
         }
