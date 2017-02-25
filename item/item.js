@@ -683,7 +683,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                         IncludeItemTypes: "Movie",
                         PersonTypes: "",
                         ArtistIds: ""
-                    }, extendVerticalCardOptions({
+                    }, extendPortraitCardOptions({
                         shape: "autoPortrait",
                         sectionTitleTagName: 'h2'
                     }));
