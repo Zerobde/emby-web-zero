@@ -19,7 +19,7 @@ This file is used to display information about your add-on in places such as the
 
 # Installation
 
-Install into the app by installing a plugin from a url. The url is: http://zerobde.github.io/zeroskin/package.json
+Install into the app by installing a plugin from a url. The url is: https://zerobde.github.io/zeroskin/package.json
 
 # Local Testing
 
@@ -31,7 +31,7 @@ To start the server, enter
 
 http-server -p 8088 --cors
 
-Now you can install into Emby Theater using the https://localhost:8088/package.json
+Now you can install into Emby Theater using the http://localhost:8088/package.json
 
 # Develop with Chrome
 
