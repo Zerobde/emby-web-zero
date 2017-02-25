@@ -774,7 +774,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
         function loadPeopleItems(element, item, type, query, listOptions) {
 
             query.SortBy = "SortName";
-            query.SortOrder = "Ascending";
+            query.SortOrder = "Descending";
             query.Recursive = true;
             query.CollapseBoxSetItems = false;
 
@@ -961,7 +961,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                     coverImage: true,
                     serverId: item.ServerId,
                     width: Math.round((section.offsetWidth / 2)),
-                    shape: 'thumb'
+                    shape: 'portrait'
                 });
             });
         }
