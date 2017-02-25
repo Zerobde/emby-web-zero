@@ -9,6 +9,10 @@
     width: 20% !important;    
 }
 
+.peopleItems .backdropCard-scalable { /* Makes the Scenes and More Like This Movies small enough to fit 5 in a row */
+    width: 0% !important;    
+}
+
 .peopleSection .cardScalable { /* Hides actor photo, leaving just the name as a link */
     display: none;
 }
