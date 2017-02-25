@@ -684,7 +684,8 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                         PersonTypes: "",
                         ArtistIds: ""
                     }, extendVerticalCardOptions({
-                        shape: 'backdrop',
+                        shape: 'backdrop', // default is "autoVertical"
+                        preferThumbs: 'True',
                         sectionTitleTagName: 'h2'
                     }));
                     break;
