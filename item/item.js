@@ -684,7 +684,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                         PersonTypes: "",
                         ArtistIds: ""
                     }, extendVerticalCardOptions({
-                        shape: "Thumb",
+                        shape: "autoVertical",
                         sectionTitleTagName: 'h2'
                     }));
                     break;
